@@ -86,15 +86,15 @@ export function AboutSection() {
 
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                <span className="text-foreground font-medium">Há 6 anos, eu era apenas mais uma mulher em busca de independência financeira.</span> Trabalhava em um emprego que não me realizava, ganhando pouco e sonhando com algo maior. Foi quando descobri o universo da extensão de cílios.
+                <span className="text-foreground font-medium">Há mais de 6 anos no mercado lash, venho construindo minha trajetória com foco em excelência, durabilidade e constante atualização nas tendências da extensão de cílios.</span> Como palestrante e educadora lash, meu propósito é compartilhar conhecimento de forma prática, moderna e estratégica, ajudando profissionais a elevarem seu nível técnico e se destacarem no mercado.
               </p>
 
               <p>
-                O início não foi fácil. Investi em cursos que prometiam muito e entregavam pouco. Cometi erros, perdi clientes, quis desistir várias vezes. Mas cada obstáculo me ensinou algo valioso, e eu <span className="text-foreground font-medium">transformei minhas dificuldades em metodologia</span>.
+                Ao longo dessa jornada, já formei mais de 17 mil alunas através dos meus cursos presenciais e online, ensinando as maiores tendências, retenção, acabamento e posicionamento profissional para <span className="text-foreground font-medium">resultados cada vez mais sofisticados e duradouros</span>.
               </p>
 
               <p>
-                Hoje, após formar <span className="text-primary font-semibold">mais de 5.000 alunas</span> em todo o Brasil, com presença nas maiores redes sociais do nicho e uma comunidade de profissionais de sucesso, tenho uma certeza: <span className="text-foreground font-medium">qualquer mulher pode conquistar sua liberdade através da beleza</span>.
+                Hoje, após formar <span className="text-primary font-semibold">mais de 5.000 alunas</span> Acredito que o mercado lash está em constante evolução, e por isso busco sempre unir técnica <span className="text-foreground font-medium">inovação e experiência para entregar formações que realmente transformam carreiras e elevam o padrão das profissionais da área</span>.
               </p>
 
               {/* Quote */}

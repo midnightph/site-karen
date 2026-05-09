@@ -10,7 +10,6 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/cursos", label: "Cursos" },
   { href: "/mentoria", label: "Mentoria VIP" },
-  { href: "/contato", label: "Contato" },
 ]
 
 export function Header() {
