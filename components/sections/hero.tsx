@@ -80,7 +80,7 @@ export function HeroSection() {
               <div className="text-center">
                 <div className="flex items-center justify-center gap-1 mb-1">
                   <Users className="w-5 h-5 text-primary" />
-                  <span className="font-serif text-3xl font-bold text-foreground">5K+</span>
+                  <span className="font-serif text-3xl font-bold text-foreground">17.5K+</span>
                 </div>
                 <span className="text-sm text-muted-foreground">Alunas Formadas</span>
               </div>
