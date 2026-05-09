@@ -70,7 +70,7 @@ export function HeroSection() {
               >
                 <Link href="/#sobre">
                   <Play className="w-5 h-5 mr-2" />
-                  Conhecer a Isabella
+                  Conhecer a Karen
                 </Link>
               </Button>
             </div>
@@ -87,7 +87,7 @@ export function HeroSection() {
               <div className="text-center">
                 <div className="flex items-center justify-center gap-1 mb-1">
                   <Award className="w-5 h-5 text-primary" />
-                  <span className="font-serif text-3xl font-bold text-foreground">8+</span>
+                  <span className="font-serif text-3xl font-bold text-foreground">6+</span>
                 </div>
                 <span className="text-sm text-muted-foreground">Anos de Experiência</span>
               </div>

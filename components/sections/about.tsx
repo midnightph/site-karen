@@ -23,16 +23,16 @@ export function AboutSection() {
           >
             <div className="relative">
               {/* Main Image Container */}
-              <div className="relative w-full aspect-[4/5] max-w-md mx-auto lg:mx-0 rounded-[2rem] overflow-hidden shadow-2xl">
+              <div className="relative aspect-[8.7/10] mx-auto lg:mx-0 rounded-[2rem] overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/hero-isabella.jpg"
-                  alt="Isabella Monteiro - Especialista em Extensão de Cílios"
+                  src="/images/about-karen.jpg"
+                  alt="Karen Santos - Especialista em Extensão de Cílios"
                   fill
                   className="object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-foreground/40 via-transparent to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
-                  <p className="font-serif text-2xl text-white font-semibold">Isabella Monteiro</p>
+                  <p className="font-serif text-2xl text-white font-semibold">Karen Santos</p>
                   <p className="text-white/80">Lash Designer & Educadora</p>
                 </div>
               </div>
@@ -43,10 +43,10 @@ export function AboutSection() {
                 whileInView={{ scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.5, type: "spring" }}
-                className="absolute -right-4 lg:right-0 top-8 bg-card rounded-2xl p-5 shadow-xl border border-primary/10"
+                className="absolute -right-4 lg:right-10 top-8 bg-card rounded-2xl p-5 shadow-xl border border-primary/10"
               >
                 <div className="text-center">
-                  <span className="font-serif text-4xl font-bold text-primary">8+</span>
+                  <span className="font-serif text-4xl font-bold text-primary">6+</span>
                   <p className="text-xs text-muted-foreground mt-1">Anos de<br/>Experiência</p>
                 </div>
               </motion.div>
@@ -57,7 +57,7 @@ export function AboutSection() {
                 whileInView={{ scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.7, type: "spring" }}
-                className="absolute -left-4 lg:left-0 bottom-12 bg-primary text-primary-foreground rounded-2xl p-5 shadow-xl"
+                className="absolute -left-4 lg:left-10 bottom-30 bg-primary text-primary-foreground rounded-2xl p-5 shadow-xl"
               >
                 <div className="text-center">
                   <span className="font-serif text-4xl font-bold">5K+</span>
@@ -86,7 +86,7 @@ export function AboutSection() {
 
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                <span className="text-foreground font-medium">Há 8 anos, eu era apenas mais uma mulher em busca de independência financeira.</span> Trabalhava em um emprego que não me realizava, ganhando pouco e sonhando com algo maior. Foi quando descobri o universo da extensão de cílios.
+                <span className="text-foreground font-medium">Há 6 anos, eu era apenas mais uma mulher em busca de independência financeira.</span> Trabalhava em um emprego que não me realizava, ganhando pouco e sonhando com algo maior. Foi quando descobri o universo da extensão de cílios.
               </p>
 
               <p>
@@ -103,7 +103,7 @@ export function AboutSection() {
                 <p className="font-serif text-lg text-foreground italic">
                   &quot;Minha missão é provar que você também pode. Eu vou te dar as ferramentas, o conhecimento e o suporte. A transformação é sua.&quot;
                 </p>
-                <p className="text-primary font-medium mt-3">— Isabella Monteiro</p>
+                <p className="text-primary font-medium mt-3">— Karen Santos</p>
               </div>
             </div>
 
