@@ -44,7 +44,7 @@ export function Header() {
               className="flex flex-col"
             >
               <span className="font-serif text-xl md:text-2xl font-bold text-foreground tracking-tight">
-                Isabella Monteiro
+                Karen Santos
               </span>
               <span className="text-[10px] md:text-xs tracking-[0.3em] text-primary uppercase">
                 Beauty Academy
@@ -69,7 +69,7 @@ export function Header() {
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-4">
             <Link
-              href="https://instagram.com"
+              href="https://instagram.com/karenbeautyofficial/"
               target="_blank"
               className="text-foreground/70 hover:text-primary transition-colors"
             >
@@ -114,18 +114,11 @@ export function Header() {
               ))}
               <div className="flex items-center gap-4 pt-4">
                 <Link
-                  href="https://instagram.com"
+                  href="https://instagram.com/karenbeautyofficial/"
                   target="_blank"
                   className="text-foreground/70 hover:text-primary transition-colors"
                 >
                   <Instagram className="w-6 h-6" />
-                </Link>
-                <Link
-                  href="https://wa.me/5511999999999"
-                  target="_blank"
-                  className="text-foreground/70 hover:text-primary transition-colors"
-                >
-                  <Phone className="w-6 h-6" />
                 </Link>
               </div>
               <Button asChild className="mt-4 bg-primary hover:bg-rose-dark text-primary-foreground rounded-full">
