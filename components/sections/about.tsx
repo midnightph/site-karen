@@ -57,10 +57,10 @@ export function AboutSection() {
                 whileInView={{ scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.7, type: "spring" }}
-                className="absolute -left-4 lg:left-10 bottom-30 bg-primary text-primary-foreground rounded-2xl p-5 shadow-xl"
+                className="absolute -left-4 lg:left-10 bottom-30 bg-primary text-primary-foreground rounded-2xl p-4 shadow-xl"
               >
                 <div className="text-center">
-                  <span className="font-serif text-4xl font-bold">5K+</span>
+                  <span className="font-serif text-4xl font-bold">17K+</span>
                   <p className="text-xs mt-1 opacity-90">Alunas<br/>Formadas</p>
                 </div>
               </motion.div>

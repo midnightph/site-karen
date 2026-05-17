@@ -13,7 +13,7 @@ const testimonials = [
     location: "São Paulo, SP",
     image: "MS",
     rating: 5,
-    text: "Antes de conhecer a Isabella, eu ganhava R$ 1.500 por mês como auxiliar administrativa. Hoje, após 6 meses do curso, fecho mês com mais de R$ 8.000 só com extensão de cílios. Minha vida mudou completamente!",
+    text: "Antes de conhecer a Karen, eu ganhava R$ 1.500 por mês como auxiliar administrativa. Hoje, após 6 meses do curso, fecho mês com mais de R$ 8.000 só com extensão de cílios. Minha vida mudou completamente!",
     result: "De R$ 1.500 para R$ 8.000/mês",
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
     location: "Rio de Janeiro, RJ",
     image: "JS",
     rating: 5,
-    text: "A metodologia da Isabella é diferente de tudo que eu já tinha visto. Ela ensina não só a técnica, mas também como empreender. Abri meu próprio estúdio e hoje emprego mais 3 profissionais.",
+    text: "A metodologia da Karen é diferente de tudo que eu já tinha visto. Ela ensina não só a técnica, mas também como empreender. Abri meu próprio estúdio e hoje emprego mais 3 profissionais.",
     result: "Abriu seu próprio estúdio",
   },
   {
@@ -33,7 +33,7 @@ const testimonials = [
     location: "Belo Horizonte, MG",
     image: "CO",
     rating: 5,
-    text: "Eu já tinha feito outros cursos de cílios, mas nenhum me deu confiança para cobrar bem. Com a Isabella, aprendi Volume Russo em nível avançado e dobrei o valor dos meus atendimentos.",
+    text: "Eu já tinha feito outros cursos de cílios, mas nenhum me deu confiança para cobrar bem. Com a Karen, aprendi Volume Russo em nível avançado e dobrei o valor dos meus atendimentos.",
     result: "Dobrou o valor dos atendimentos",
   },
   {
@@ -43,7 +43,7 @@ const testimonials = [
     location: "Curitiba, PR",
     image: "AC",
     rating: 5,
-    text: "Saí do zero absoluto. Nunca tinha feito nada relacionado a beleza e a Isabella me transformou em uma profissional completa. O suporte dela é incrível, sempre presente no grupo.",
+    text: "Saí do zero absoluto. Nunca tinha feito nada relacionado a beleza e a Karen me transformou em uma profissional completa. O suporte dela é incrível, sempre presente no grupo.",
     result: "Do zero à profissional",
   },
   {
@@ -107,7 +107,7 @@ export function TestimonialsSection() {
             <span className="text-primary">transformação</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Veja o que nossas alunas têm a dizer sobre a experiência de aprender com a Isabella
+            Veja o que nossas alunas têm a dizer sobre a experiência de aprender com a Karen
           </p>
         </motion.div>
 

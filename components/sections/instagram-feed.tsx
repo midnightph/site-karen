@@ -6,11 +6,11 @@ import Link from "next/link"
 import Image from "next/image"
 
 const posts = [
-  { id: 1, likes: "2.4K", comments: "156", image: "/images/course-basics.jpg" },
-  { id: 2, likes: "3.1K", comments: "203", image: "/images/course-volume.jpg" },
-  { id: 3, likes: "1.8K", comments: "98", image: "/images/hero-isabella.jpg" },
-  { id: 4, likes: "4.2K", comments: "312", image: "/images/course-basics.jpg" },
-  { id: 5, likes: "2.9K", comments: "187", image: "/images/course-volume.jpg" },
+  { id: 1, likes: "2.4K", comments: "156", image: "/images/course-basics.jpeg" },
+  { id: 2, likes: "3.1K", comments: "203", image: "/images/course-volume.jpeg" },
+  { id: 3, likes: "1.8K", comments: "98", image: "/images/about-karen.jpg" },
+  { id: 4, likes: "4.2K", comments: "312", image: "/images/course-basics2.jpeg" },
+  { id: 5, likes: "2.9K", comments: "187", image: "/images/course-volume2.jpeg" },
   { id: 6, likes: "3.5K", comments: "245", image: "/images/hero-isabella.jpg" },
 ]
 
@@ -31,7 +31,7 @@ export function InstagramFeed() {
           </span>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
             Siga{" "}
-            <span className="text-primary">@isabellamonteiro</span>
+            <span className="text-primary">@karenbeautyofficial</span>
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
             Acompanhe dicas exclusivas, bastidores e transformações incríveis no nosso Instagram
@@ -79,7 +79,7 @@ export function InstagramFeed() {
           className="text-center mt-10"
         >
           <Link
-            href="https://instagram.com/isabellamonteiro"
+            href="https://instagram.com/karenbeautyofficial"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-pink-500 text-white px-6 py-3 rounded-full font-medium hover:from-purple-700 hover:to-pink-600 transition-all shadow-lg"

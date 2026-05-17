@@ -31,7 +31,7 @@ export function HeroSection() {
               className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-6"
             >
               <Star className="w-4 h-4 text-primary fill-primary" />
-              <span className="text-sm font-medium text-primary">+5.000 Alunas Certificadas</span>
+              <span className="text-sm font-medium text-primary">+17.500 Alunas Certificadas</span>
             </motion.div>
 
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight mb-6">

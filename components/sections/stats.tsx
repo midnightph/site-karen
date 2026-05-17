@@ -6,19 +6,19 @@ import { Users, Award, Star, BookOpen, Instagram, Heart } from "lucide-react"
 const stats = [
   {
     icon: Users,
-    value: "5.000+",
+    value: "17.500+",
     label: "Alunas Formadas",
     description: "Em todo o Brasil",
   },
   {
     icon: Award,
-    value: "8",
+    value: "6",
     label: "Anos de Experiência",
     description: "No mercado de beleza",
   },
   {
     icon: Instagram,
-    value: "350K+",
+    value: "120K+",
     label: "Seguidores",
     description: "Nas redes sociais",
   },

@@ -16,12 +16,12 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: 'Isabella Monteiro Beauty Academy | Cursos de Extensao de Cilios',
-  description: 'Aprenda extensao de cilios com a maior referencia do Brasil. Cursos online e presenciais que ja transformaram a vida de mais de 5.000 alunas. Comece sua jornada de sucesso hoje!',
-  keywords: 'extensao de cilios, curso de cilios, lash designer, volume russo, fio a fio, curso de beleza, Isabella Monteiro',
-  authors: [{ name: 'Isabella Monteiro' }],
+  title: 'Karen Beauty Academy | Cursos de Extensao de Cilios',
+  description: 'Aprenda extensao de cilios com a maior referencia do Brasil. Cursos online e presenciais que ja transformaram a vida de mais de 17.500 alunas. Comece sua jornada de sucesso hoje!',
+  keywords: 'extensao de cilios, curso de cilios, lash designer, volume russo, fio a fio, curso de beleza, Karen Beauty Academy',
+  authors: [{ name: 'Karen Beauty Academy' }],
   openGraph: {
-    title: 'Isabella Monteiro Beauty Academy',
+    title: 'Karen Beauty Academy',
     description: 'Transforme sua paixao por beleza em uma carreira de sucesso',
     type: 'website',
   },
