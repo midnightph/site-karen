@@ -9,39 +9,42 @@ import Link from "next/link"
 const featuredCourses = [
   {
     id: 1,
-    title: "Extensão de Cílios do Zero",
-    description: "Domine todas as técnicas básicas e comece sua carreira como lash designer profissional.",
-    price: "R$ 497",
-    originalPrice: "R$ 997",
-    duration: "20 horas",
-    students: "2.500+",
+    title: "Têndencias",
+    description: "Domine todas as têndencias do mercado e empulsione sua carreira como lash designer profissional.",
+    price: "R$ 67",
+    originalPrice: "R$ 99",
+    duration: "2 horas",
+    students: "1.500+",
     rating: 4.9,
     badge: "Mais Vendido",
     color: "from-primary/20 to-primary/5",
+    image: "./images/course-tendencia.png",
   },
   {
     id: 2,
-    title: "Volume Russo Profissional",
-    description: "Aprenda a técnica mais requisitada do mercado e dobre o valor do seu atendimento.",
-    price: "R$ 697",
+    title: "Master em Durabilidade",
+    description: "Método MASTER EM DURABILIDADE, você vai aprender comigo a técnica de durabilidade 30+ para nunca mais precisar fazer manutenção e ainda realizando 3 técnicas com apenas um tipo de fio.",
+    price: "R$ 997",
     originalPrice: "R$ 1.297",
     duration: "25 horas",
     students: "1.800+",
     rating: 4.9,
     badge: "Premium",
     color: "from-accent/20 to-accent/5",
+    image: "./images/course-md.png",
   },
   {
     id: 3,
-    title: "Marketing para Lash Designers",
-    description: "Atraia clientes todos os dias e lote sua agenda usando estratégias comprovadas.",
-    price: "R$ 397",
-    originalPrice: "R$ 697",
+    title: "Lash Pro Class DURABILIDADE",
+    description: "Depois do acabamento perfeito, vem a durabilidade. O Lash Pro Class 40+ aprofunda suas técnicas para fios que duram mais, resistem melhor e valorizam seu trabalho em cada aplicação.",
+    price: "R$ 197",
+    originalPrice: "R$ 299",
     duration: "15 horas",
     students: "3.200+",
     rating: 4.8,
     badge: "Novo",
     color: "from-rose-dark/20 to-rose-dark/5",
+    image: "./images/course-produrabilidade.png",
   },
 ]
 
@@ -82,26 +85,23 @@ export function FeaturedCourses() {
               <Card className="group relative overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-all duration-500 bg-card">
                 {/* Badge */}
                 <div className="absolute top-4 right-4 z-10">
-                  <span className={`px-3 py-1 rounded-full text-xs font-semibold ${
-                    course.badge === "Mais Vendido" 
+                  <span className={`px-3 py-1 rounded-full text-xs font-semibold ${course.badge === "Mais Vendido"
                       ? "bg-primary text-primary-foreground"
                       : course.badge === "Premium"
-                      ? "bg-accent text-accent-foreground"
-                      : "bg-foreground text-background"
-                  }`}>
+                        ? "bg-accent text-accent-foreground"
+                        : "bg-foreground text-background"
+                    }`}>
                     {course.badge}
                   </span>
                 </div>
 
                 {/* Image/Visual Area */}
-                <div className={`relative h-48 bg-gradient-to-br ${course.color}`}>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-20 h-20 rounded-full bg-card/80 backdrop-blur flex items-center justify-center">
-                      <span className="font-serif text-2xl font-bold text-primary">{course.id}</span>
-                    </div>
-                  </div>
-                  {/* Decorative elements */}
-                  <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-card to-transparent" />
+                <div className="w-full h-full overflow-hidden bg-muted">
+                  <img
+                    src={course.image}
+                    alt={course.title}
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                  />
                 </div>
 
                 {/* Content */}

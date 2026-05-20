@@ -5,18 +5,18 @@
 
 :root {
   /* Rosa sofisticado como cor principal */
-  --background: oklch(0.99 0.005 350);
+  --background: #fffafc;
   --foreground: oklch(0.15 0.02 350);
   
   /* Cards com fundo suave */
-  --card: oklch(1 0 0);
+  --card: #ffffff;
   --card-foreground: oklch(0.15 0.02 350);
   
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.15 0.02 350);
   
   /* Primary - Rosa elegante */
-  --primary: oklch(0.65 0.18 350);
+  --primary: #db589e;
   --primary-foreground: oklch(1 0 0);
   
   /* Secondary - Rosa suave */
@@ -24,7 +24,7 @@
   --secondary-foreground: oklch(0.25 0.05 350);
   
   /* Muted - Tons neutros rosados */
-  --muted: oklch(0.96 0.015 350);
+  --muted: #faeef3;
   --muted-foreground: oklch(0.45 0.02 350);
   
   /* Accent - Dourado suave */
