@@ -20,12 +20,18 @@ export const metadata: Metadata = {
   description: 'Aprenda extensao de cilios com a maior referencia do Brasil. Cursos online e presenciais que ja transformaram a vida de mais de 17.500 alunas. Comece sua jornada de sucesso hoje!',
   keywords: 'extensao de cilios, curso de cilios, lash designer, volume russo, fio a fio, curso de beleza, Karen Beauty Academy',
   authors: [{ name: 'Karen Beauty Academy' }],
+  icons: {
+    icon: '/images/logo.png',
+    shortcut: '/images/logo.png',
+    apple: '/images/logo.png',
+  },
   openGraph: {
     title: 'Karen Beauty Academy',
     description: 'Transforme sua paixao por beleza em uma carreira de sucesso',
     type: 'website',
   },
 }
+
 
 export default function RootLayout({
   children,
