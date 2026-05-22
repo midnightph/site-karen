@@ -12,48 +12,45 @@ import Link from "next/link"
 const courses = [
   {
     id: 1,
-    title: "Extensão de Cílios do Zero",
-    description: "Curso completo para iniciantes que desejam dominar todas as técnicas básicas de extensão de cílios. Aprenda desde a preparação até a aplicação perfeita.",
-    price: "R$ 497",
-    originalPrice: "R$ 997",
-    duration: "20 horas",
-    students: "2.500+",
+    title: "Têndencias",
+    description: "Domine todas as têndencias do mercado e empulsione sua carreira como lash designer profissional.",
+    price: "R$ 67",
+    originalPrice: "R$ 99",
+    duration: "2 horas",
+    students: "1.500+",
     rating: 4.9,
     badge: "Mais Vendido",
-    type: "Online",
-    modules: ["Biossegurança", "Anatomia do olho", "Fio a fio clássico", "Mapeamento", "Prática guiada"],
     color: "from-primary/20 to-primary/5",
-    spots: 15,
+    image: "./images/course-tendencia.png",
+    link: "https://pay.kiwify.com.br/TTOug7M"
   },
   {
     id: 2,
-    title: "Volume Russo Profissional",
-    description: "Domine a técnica mais requisitada do mercado. Aprenda a criar leques perfeitos e oferecer um serviço premium para suas clientes.",
-    price: "R$ 697",
+    title: "Master em Durabilidade",
+    description: "Método MASTER EM DURABILIDADE, você vai aprender comigo a técnica de durabilidade 30+ para nunca mais precisar fazer manutenção e ainda realizando 3 técnicas com apenas um tipo de fio.",
+    price: "R$ 997",
     originalPrice: "R$ 1.297",
     duration: "25 horas",
     students: "1.800+",
     rating: 4.9,
     badge: "Premium",
-    type: "Online",
-    modules: ["Técnica de leques", "Volume 2D a 6D", "Mega Volume", "Looks personalizados", "Precificação premium"],
     color: "from-accent/20 to-accent/5",
-    spots: 12,
+    image: "./images/course-md.png",
+    link: "https://pay.kiwify.com.br/8A3sVPu"
   },
   {
     id: 3,
-    title: "Marketing para Lash Designers",
-    description: "Estratégias comprovadas para atrair clientes todos os dias pelo Instagram. Aprenda a vender seus serviços e lotar sua agenda.",
-    price: "R$ 397",
-    originalPrice: "R$ 697",
+    title: "Lash Pro Class DURABILIDADE",
+    description: "Depois do acabamento perfeito, vem a durabilidade. O Lash Pro Class 40+ aprofunda suas técnicas para fios que duram mais, resistem melhor e valorizam seu trabalho em cada aplicação.",
+    price: "R$ 197",
+    originalPrice: "R$ 299",
     duration: "15 horas",
     students: "3.200+",
     rating: 4.8,
     badge: "Novo",
-    type: "Online",
-    modules: ["Perfil magnético", "Conteúdo que vende", "Stories estratégicos", "Reels virais", "Fechamento de vendas"],
     color: "from-rose-dark/20 to-rose-dark/5",
-    spots: 20,
+    image: "./images/course-produrabilidade.png",
+    link: "https://pay.kiwify.com.br/S42tiMp"
   },
   {
     id: 4,
@@ -136,12 +133,12 @@ export default function CursosPage() {
   return (
     <main className="min-h-screen">
       <Header />
-      
+
       {/* Hero */}
       <section className="pt-32 pb-20 bg-gradient-to-b from-secondary/50 to-background relative overflow-hidden">
         <div className="absolute top-20 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-accent/5 rounded-full blur-3xl" />
-        
+
         <div className="container mx-auto px-4 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -180,48 +177,42 @@ export default function CursosPage() {
                   {/* Badge */}
                   {course.badge && (
                     <div className="absolute top-4 right-4 z-10">
-                      <span className={`px-3 py-1 rounded-full text-xs font-semibold ${
-                        course.badge === "Mais Vendido" 
-                          ? "bg-primary text-primary-foreground"
-                          : course.badge === "Premium" || course.badge === "Avançado"
+                      <span className={`px-3 py-1 rounded-full text-xs font-semibold ${course.badge === "Mais Vendido"
+                        ? "bg-primary text-primary-foreground"
+                        : course.badge === "Premium" || course.badge === "Avançado"
                           ? "bg-foreground text-background"
                           : course.badge === "Novo"
-                          ? "bg-accent text-accent-foreground"
-                          : course.badge === "Presencial"
-                          ? "bg-rose-dark text-white"
-                          : "bg-accent text-accent-foreground"
-                      }`}>
+                            ? "bg-accent text-accent-foreground"
+                            : course.badge === "Presencial"
+                              ? "bg-rose-dark text-white"
+                              : "bg-accent text-accent-foreground"
+                        }`}>
                         {course.badge}
                       </span>
                     </div>
                   )}
 
                   {/* Visual Area */}
-                  <div className={`relative h-40 bg-gradient-to-br ${course.color}`}>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-16 h-16 rounded-full bg-card/80 backdrop-blur flex items-center justify-center">
-                        <span className="font-serif text-xl font-bold text-primary">{course.id}</span>
-                      </div>
-                    </div>
-                    <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-card to-transparent" />
-                    
-                    {/* Spots indicator */}
-                    <div className="absolute bottom-3 left-3 bg-foreground/90 text-background px-2 py-1 rounded text-xs font-medium">
-                      {course.spots} vagas restantes
-                    </div>
+                  <div className="w-full h-full object-cover object-top -mt-6">
+                    <img
+                      src={course.image}
+                      alt={course.title}
+                      className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                    />
                   </div>
 
                   {/* Content */}
                   <div className="flex flex-col flex-grow p-5">
-                    <div className="flex items-center gap-2 mb-2">
-                      <span className={`text-xs px-2 py-0.5 rounded-full ${
-                        course.type === "Presencial" 
-                          ? "bg-rose-dark/10 text-rose-dark" 
+                    {course.type && (
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className={`text-xs px-2 py-0.5 rounded-full ${course.type === "Presencial"
+                          ? "bg-rose-dark/10 text-rose-dark"
                           : "bg-primary/10 text-primary"
-                      }`}>
-                        {course.type}
-                      </span>
-                    </div>
+                          }`}>
+                          {course.type}
+                        </span>
+                      </div>
+                    )}
 
                     <h3 className="font-serif text-lg font-bold text-foreground mb-2 group-hover:text-primary transition-colors line-clamp-2">
                       {course.title}
@@ -246,19 +237,6 @@ export default function CursosPage() {
                       </span>
                     </div>
 
-                    {/* Modules Preview */}
-                    <div className="space-y-1 mb-4">
-                      {course.modules.slice(0, 3).map((module, idx) => (
-                        <div key={idx} className="flex items-center gap-2 text-xs text-muted-foreground">
-                          <Check className="w-3 h-3 text-primary" />
-                          {module}
-                        </div>
-                      ))}
-                      {course.modules.length > 3 && (
-                        <span className="text-xs text-primary">+{course.modules.length - 3} módulos</span>
-                      )}
-                    </div>
-
                     {/* Price & CTA */}
                     <div className="pt-4 border-t border-border mt-auto">
                       <div className="flex items-center justify-between">
@@ -269,6 +247,7 @@ export default function CursosPage() {
                         <Button
                           size="sm"
                           className="bg-primary hover:bg-rose-dark text-primary-foreground rounded-full"
+                          onClick={() => window.open(course.link, "_blank")}
                         >
                           Comprar
                           <ArrowRight className="w-4 h-4 ml-1" />

@@ -99,7 +99,7 @@ export function FeaturedCourses() {
                 </div>
 
                 {/* Image/Visual Area */}
-                <div className="w-full h-full overflow-hidden bg-muted">
+                <div className="w-full h-full object-cover object-top -mt-6">
                   <img
                     src={course.image}
                     alt={course.title}
