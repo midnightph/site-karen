@@ -19,6 +19,7 @@ const featuredCourses = [
     badge: "Mais Vendido",
     color: "from-primary/20 to-primary/5",
     image: "./images/course-tendencia.png",
+    link: "https://pay.kiwify.com.br/TTOug7M"
   },
   {
     id: 2,
@@ -32,6 +33,7 @@ const featuredCourses = [
     badge: "Premium",
     color: "from-accent/20 to-accent/5",
     image: "./images/course-md.png",
+    link: "https://pay.kiwify.com.br/8A3sVPu"
   },
   {
     id: 3,
@@ -45,6 +47,7 @@ const featuredCourses = [
     badge: "Novo",
     color: "from-rose-dark/20 to-rose-dark/5",
     image: "./images/course-produrabilidade.png",
+    link: "https://pay.kiwify.com.br/S42tiMp"
   },
 ]
 
@@ -139,7 +142,7 @@ export function FeaturedCourses() {
                       asChild
                       className="bg-primary hover:bg-rose-dark text-primary-foreground rounded-full"
                     >
-                      <Link href={`/cursos#curso-${course.id}`}>
+                      <Link href={course.link} target="_blank">
                         Comprar
                         <ArrowRight className="w-4 h-4 ml-1" />
                       </Link>
