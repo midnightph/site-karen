@@ -112,7 +112,7 @@ export function HeroSection() {
               {/* Main Image Container */}
               <div className="relative w-full aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl">
                 <Image
-                  src="./images/hero-isabella.jpg"
+                  src="./images/hero-isabella.webp"
                   alt="Isabella Monteiro - Lash Designer e Educadora"
                   fill
                   className="object-cover"

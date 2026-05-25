@@ -11,7 +11,7 @@ const posts = [
   { id: 3, likes: "1.8K", comments: "98", image: "/images/about-karen.jpg" },
   { id: 4, likes: "4.2K", comments: "312", image: "/images/course-basics2.jpeg" },
   { id: 5, likes: "2.9K", comments: "187", image: "/images/course-volume2.jpeg" },
-  { id: 6, likes: "3.5K", comments: "245", image: "/images/hero-isabella.jpg" },
+  { id: 6, likes: "3.5K", comments: "245", image: "/images/hero-isabella.webp" },
 ]
 
 export function InstagramFeed() {
