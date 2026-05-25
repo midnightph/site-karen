@@ -30,7 +30,7 @@ const courses = [
     description: "Método MASTER EM DURABILIDADE, você vai aprender comigo a técnica de durabilidade 30+ para nunca mais precisar fazer manutenção e ainda realizando 3 técnicas com apenas um tipo de fio.",
     price: "R$ 997",
     originalPrice: "R$ 1.297",
-    duration: "25 horas",
+    duration: "12 horas",
     students: "1.800+",
     rating: 4.9,
     badge: "Premium",
@@ -44,7 +44,7 @@ const courses = [
     description: "Depois do acabamento perfeito, vem a durabilidade. O Lash Pro Class 40+ aprofunda suas técnicas para fios que duram mais, resistem melhor e valorizam seu trabalho em cada aplicação.",
     price: "R$ 197",
     originalPrice: "R$ 299",
-    duration: "15 horas",
+    duration: "6 horas",
     students: "3.200+",
     rating: 4.8,
     badge: "Novo",
@@ -193,7 +193,7 @@ export default function CursosPage() {
                   )}
 
                   {/* Visual Area */}
-                  <div className="w-full h-full object-cover object-top -mt-6">
+                  <div className="relative w-full h-68 overflow-hidden -mt-6">
                     <img
                       src={course.image}
                       alt={course.title}
@@ -202,7 +202,7 @@ export default function CursosPage() {
                   </div>
 
                   {/* Content */}
-                  <div className="flex flex-col flex-grow p-5">
+                  <div className="flex flex-col flex-grow p-5 pt-1">
                     {course.type && (
                       <div className="flex items-center gap-2 mb-2">
                         <span className={`text-xs px-2 py-0.5 rounded-full ${course.type === "Presencial"
