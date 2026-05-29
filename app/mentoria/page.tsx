@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 const benefits = [
-  "Encontros semanais ao vivo com a Isabella",
+  "Encontros semanais ao vivo com a Karen",
   "Análise completa do seu negócio",
   "Estratégias personalizadas de crescimento",
   "Acesso a todos os cursos online",
@@ -69,7 +69,7 @@ export default function MentoriaPage() {
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-background mb-6 leading-tight">
               Acompanhamento{" "}
               <span className="text-primary">individual</span>{" "}
-              direto com a Isabella
+              direto com a Karen
             </h1>
             
             <p className="text-background/80 text-lg md:text-xl max-w-2xl mx-auto mb-10">
