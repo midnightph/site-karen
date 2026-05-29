@@ -123,7 +123,7 @@ export function FAQSection() {
               Ainda tem dúvidas? Fale diretamente com nossa equipe!
             </p>
             <a
-              href="https://wa.me/5511999999999?text=Olá! Tenho uma dúvida sobre os cursos."
+              href="https://wa.me/554199222199?text=Olá! Tenho uma dúvida sobre os cursos."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-full font-medium hover:bg-rose-dark transition-colors"

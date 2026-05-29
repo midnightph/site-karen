@@ -94,7 +94,7 @@ export function AboutSection() {
               </p>
 
               <p>
-                Hoje, após formar <span className="text-primary font-semibold">mais de 5.000 alunas</span> Acredito que o mercado lash está em constante evolução, e por isso busco sempre unir técnica <span className="text-foreground font-medium">inovação e experiência para entregar formações que realmente transformam carreiras e elevam o padrão das profissionais da área</span>.
+                Hoje, após formar <span className="text-primary font-semibold">mais de 17.500 alunas</span> Acredito que o mercado lash está em constante evolução, e por isso busco sempre unir técnica <span className="text-foreground font-medium">inovação e experiência para entregar formações que realmente transformam carreiras e elevam o padrão das profissionais da área</span>.
               </p>
 
               {/* Quote */}
