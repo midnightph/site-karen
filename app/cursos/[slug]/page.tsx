@@ -37,8 +37,7 @@ export default async function CourseDetailsPage({
               {course.badge && (
                 <div className="inline-flex items-center gap-2 mb-4">
                   <span
-                    className={`px-3 py-1 rounded-full text-xs font-semibold ${
-                      course.badge === "Mais Vendido"
+                    className={`px-3 py-1 rounded-full text-xs font-semibold ${course.badge === "Mais Vendido"
                         ? "bg-primary text-primary-foreground"
                         : course.badge === "Premium" || course.badge === "Avançado"
                           ? "bg-foreground text-background"
@@ -47,7 +46,7 @@ export default async function CourseDetailsPage({
                             : course.badge === "Presencial"
                               ? "bg-rose-dark text-white"
                               : "bg-accent text-accent-foreground"
-                    }`}
+                      }`}
                   >
                     {course.badge}
                   </span>
@@ -114,18 +113,17 @@ export default async function CourseDetailsPage({
                   <img
                     src={course.image}
                     alt={course.title}
-                    className="w-full h-[380px] object-cover object-top -mt-6"
+                    className="w-full h-60 md:h-[380px] object-cover object-center -mt-6"
                   />
                 </div>
                 <div className="p-6">
                   {course.type && (
                     <div className="flex items-center gap-2 mb-3">
                       <span
-                        className={`text-xs px-2 py-0.5 rounded-full ${
-                          course.type === "Presencial"
+                        className={`text-xs px-2 py-0.5 rounded-full ${course.type === "Presencial"
                             ? "bg-rose-dark/10 text-rose-dark"
                             : "bg-primary/10 text-primary"
-                        }`}
+                          }`}
                       >
                         {course.type}
                       </span>
@@ -199,8 +197,7 @@ export default async function CourseDetailsPage({
                   {c.badge ? (
                     <div className="mb-3">
                       <span
-                        className={`px-3 py-1 rounded-full text-xs font-semibold ${
-                          c.badge === "Mais Vendido"
+                        className={`px-3 py-1 rounded-full text-xs font-semibold ${c.badge === "Mais Vendido"
                             ? "bg-primary text-primary-foreground"
                             : c.badge === "Premium" || c.badge === "Avançado"
                               ? "bg-foreground text-background"
@@ -209,7 +206,7 @@ export default async function CourseDetailsPage({
                                 : c.badge === "Presencial"
                                   ? "bg-rose-dark text-white"
                                   : "bg-accent text-accent-foreground"
-                        }`}
+                          }`}
                       >
                         {c.badge}
                       </span>
