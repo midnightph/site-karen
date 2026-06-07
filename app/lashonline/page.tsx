@@ -9,45 +9,47 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 const benefits = [
-  "Encontros semanais ao vivo com a Karen",
-  "Análise completa do seu negócio",
-  "Estratégias personalizadas de crescimento",
-  "Acesso a todos os cursos online",
-  "Grupo VIP exclusivo de mentoradas",
-  "Suporte direto via WhatsApp",
-  "Templates e materiais exclusivos",
-  "Networking com profissionais de elite",
-  "Sessões de tira-dúvidas individuais",
-  "Certificado de Conclusão Premium",
+  "Como escolher o tema ideal para o seu curso",
+  "Como definir um nome atrativo",
+  "Como estruturar as aulas sem complicação",
+  "Como gravar usando apenas o celular",
+  "Como organizar seu conteúdo de forma profissional",
+  "Onde editar suas aulas de forma simples",
+  "Como precificar seu curso de forma estratégica",
+  "Como subir seu curso na plataforma",
+  "Como criar sua página de vendas",
+  "Como fazer seu lançamento de forma orgânica",
+  "Como vender sem depender de uma equipe",
+  "Como transformar seu conhecimento em uma nova fonte de renda",
 ]
 
 const results = [
-  { name: "Luciana", result: "De R$ 3K para R$ 18K/mês", time: "Em 4 meses" },
-  { name: "Patricia", result: "Abriu 2 unidades do estúdio", time: "Em 6 meses" },
-  { name: "Amanda", result: "Criou sua própria marca", time: "Em 8 meses" },
-  { name: "Rafaela", result: "Saiu do CLT para R$ 25K/mês", time: "Em 5 meses" },
+  { name: "Luciana", result: "Criou seu primeiro curso", time: "Em 7 dias" },
+  { name: "Patricia", result: "Lançou com sucesso", time: "Em 7 dias" },
+  { name: "Amanda", result: "Primeira venda fechada", time: "Em 10 dias" },
+  { name: "Rafaela", result: "Já gerando renda extra", time: "Em 14 dias" },
 ]
 
 const timeline = [
-  { month: "Mês 1", title: "Fundação", desc: "Diagnóstico completo e plano personalizado" },
-  { month: "Mês 2", title: "Estruturação", desc: "Processos, finanças e posicionamento" },
-  { month: "Mês 3", title: "Crescimento", desc: "Marketing, vendas e captação de clientes" },
-  { month: "Mês 4", title: "Escala", desc: "Equipe, expansão e múltiplas fontes de renda" },
-  { month: "Mês 5", title: "Autoridade", desc: "Marca pessoal e reconhecimento no mercado" },
-  { month: "Mês 6", title: "Consolidação", desc: "Automatização e liberdade de tempo" },
+  { month: "Dia 1", title: "Tema do Curso", desc: "Como escolher o tema ideal e validar a demanda" },
+  { month: "Dia 2", title: "Estrutura", desc: "Definir nome atrativo e estruturar as aulas" },
+  { month: "Dia 3", title: "Gravação", desc: "Como gravar com apenas o celular" },
+  { month: "Dia 4", title: "Edição", desc: "Editar suas aulas de forma simples e profissional" },
+  { month: "Dia 5", title: "Precificação", desc: "Precificar seu curso de forma estratégica" },
+  { month: "Dia 6-7", title: "Lançamento", desc: "Subir na plataforma e criar página de vendas" },
 ]
 
 export default function MentoriaPage() {
   return (
     <main className="min-h-screen">
       <Header />
-      
+
       {/* Hero */}
       <section className="pt-32 pb-20 bg-gradient-to-b from-foreground to-foreground/95 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMiI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMiIvPjwvZz48L2c+PC9zdmc+')] opacity-50" />
         <div className="absolute top-20 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-accent/10 rounded-full blur-3xl" />
-        
+
         <div className="container mx-auto px-4 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -62,18 +64,18 @@ export default function MentoriaPage() {
               className="inline-flex items-center gap-2 bg-accent/20 border border-accent/30 rounded-full px-5 py-2 mb-8"
             >
               <Crown className="w-5 h-5 text-accent" />
-              <span className="text-accent font-semibold">Mentoria VIP</span>
+              <span className="text-accent font-semibold">Lash Online</span>
               <Diamond className="w-4 h-4 text-accent" />
             </motion.div>
 
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-background mb-6 leading-tight">
-              Acompanhamento{" "}
-              <span className="text-primary">individual</span>{" "}
-              direto com a Karen
+              Crie seu primeiro{" "}
+              <span className="text-primary">curso online</span>{" "}
+              em apenas 7 dias
             </h1>
-            
+
             <p className="text-background/80 text-lg md:text-xl max-w-2xl mx-auto mb-10">
-              6 meses de transformação intensa para você que quer ir além dos cursos e construir um negócio de alto faturamento no mercado de cílios.
+              Transforme o que você já sabe em uma nova fonte de renda. Mesmo que você não tenha muitos seguidores, não tenha equipe, nunca tenha criado um curso antes e grave apenas com o celular.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -82,8 +84,8 @@ export default function MentoriaPage() {
                 size="lg"
                 className="bg-primary hover:bg-rose-dark text-primary-foreground rounded-full px-10 py-6 text-lg font-semibold shadow-2xl"
               >
-                <Link href="https://wa.me/5511999999999?text=Olá! Tenho interesse na Mentoria VIP.">
-                  Quero Aplicar
+                <Link href="https://chat.whatsapp.com/GzuqN2OyZZ33lE8ToiLGfy?s=cl&p=i&mlu=0&ilr=2">
+                  Quero Criar Meu Curso
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Link>
               </Button>
@@ -92,8 +94,8 @@ export default function MentoriaPage() {
             {/* Trust */}
             <div className="flex flex-wrap items-center justify-center gap-6 mt-10 text-background/60">
               <div className="flex items-center gap-2">
-                <Users className="w-5 h-5 text-primary" />
-                <span className="text-sm">Apenas 10 vagas por turma</span>
+                <Clock className="w-5 h-5 text-primary" />
+                <span className="text-sm">Aprenda em apenas 7 dias</span>
               </div>
               <div className="flex items-center gap-2">
                 <Star className="w-5 h-5 fill-accent text-accent" />
@@ -101,7 +103,7 @@ export default function MentoriaPage() {
               </div>
               <div className="flex items-center gap-2">
                 <Target className="w-5 h-5 text-primary" />
-                <span className="text-sm">100% das mentoradas com resultados</span>
+                <span className="text-sm">Sem experiência anterior necessária</span>
               </div>
             </div>
           </motion.div>
@@ -119,21 +121,21 @@ export default function MentoriaPage() {
             >
               <span className="inline-flex items-center gap-2 text-primary font-medium text-sm uppercase tracking-wider mb-4">
                 <Sparkles className="w-4 h-4" />
-                O que é a Mentoria VIP
+                O que é Lash Online
               </span>
               <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Muito mais que um curso.{" "}
-                <span className="text-primary">Uma parceria.</span>
+                Transforme seu conhecimento{" "}
+                <span className="text-primary">em renda.</span>
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  A Mentoria VIP é o meu programa mais exclusivo. Durante 6 meses, você terá <span className="text-foreground font-medium">acompanhamento direto comigo</span> para transformar seu negócio de cílios em uma máquina de faturamento.
+                  Você não precisa ser famosa para vender um curso. Você só precisa saber algo que outras pessoas gostariam de aprender.
                 </p>
                 <p>
-                  Diferente dos cursos onde você aprende a técnica, na mentoria eu <span className="text-foreground font-medium">entro no seu negócio</span>, analiso cada detalhe, identifico gargalos e crio estratégias personalizadas para o seu crescimento.
+                  Se você já ajuda clientes, alunas ou pessoas ao seu redor com um conhecimento que domina, você já tem o que precisa para começar. <span className="text-foreground font-medium">No Lash Online, eu vou te mostrar o passo a passo</span> para transformar seu conhecimento em um curso digital do zero.
                 </p>
                 <p>
-                  Se você já tem conhecimento técnico mas sente que está estagnada, faturando menos do que deveria, ou quer dar o próximo passo rumo à liberdade financeira de verdade, <span className="text-primary font-semibold">a Mentoria VIP é para você</span>.
+                  Você não vai sair apenas com uma ideia. <span className="text-primary font-semibold">Vai sair com um curso estruturado, gravado, precificado e pronto para ser vendido</span>.
                 </p>
               </div>
             </motion.div>
@@ -146,7 +148,7 @@ export default function MentoriaPage() {
             >
               <h3 className="font-serif text-2xl font-bold text-foreground mb-6 flex items-center gap-2">
                 <Check className="w-6 h-6 text-primary" />
-                O que está incluso
+                O que você vai aprender
               </h3>
               <div className="space-y-4">
                 {benefits.map((benefit, index) => (
@@ -181,10 +183,10 @@ export default function MentoriaPage() {
           >
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
               Sua jornada de{" "}
-              <span className="text-primary">6 meses</span>
+              <span className="text-primary">7 dias</span>
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Um plano estruturado para levar você do ponto A ao ponto B com clareza e acompanhamento
+              Um plano estruturado para levar você da ideia ao curso pronto para vender
             </p>
           </motion.div>
 
@@ -220,8 +222,8 @@ export default function MentoriaPage() {
             className="text-center mb-16"
           >
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Resultados das{" "}
-              <span className="text-primary">mentoradas</span>
+              Resultados dos{" "}
+              <span className="text-primary">alunos</span>
             </h2>
           </motion.div>
 
@@ -265,9 +267,9 @@ export default function MentoriaPage() {
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {[
-              { icon: Video, title: "Encontros Semanais", desc: "Toda semana, um encontro ao vivo de 2h pelo Zoom com todo o grupo" },
-              { icon: MessageCircle, title: "Suporte Direto", desc: "Acesso ao meu WhatsApp pessoal para dúvidas e direcionamentos rápidos" },
-              { icon: Calendar, title: "Sessões 1:1", desc: "2 sessões individuais por mês para análise detalhada do seu negócio" },
+              { icon: Video, title: "Módulos em Vídeo", desc: "Conteúdo estruturado e didático em 7 dias de aprendizado prático" },
+              { icon: MessageCircle, title: "Comunidade de Suporte", desc: "Acesso a um grupo exclusivo para tirar dúvidas e trocar experiências" },
+              { icon: Calendar, title: "Bônus Extras", desc: "Templates prontos, checklist de lançamento e guias de edição" },
             ].map((item, index) => (
               <motion.div
                 key={item.title}
@@ -300,20 +302,21 @@ export default function MentoriaPage() {
             <div className="bg-gradient-to-br from-foreground to-foreground/95 rounded-3xl p-8 md:p-12 text-center relative overflow-hidden">
               <div className="absolute top-0 right-0 w-40 h-40 bg-primary/10 rounded-full -mr-20 -mt-20" />
               <div className="absolute bottom-0 left-0 w-32 h-32 bg-accent/10 rounded-full -ml-16 -mb-16" />
-              
+
               <div className="relative z-10">
                 <Crown className="w-12 h-12 text-accent mx-auto mb-4" />
                 <h2 className="font-serif text-3xl md:text-4xl font-bold text-background mb-2">
-                  Mentoria VIP
+                  Lash Online
                 </h2>
-                <p className="text-background/70 mb-6">6 meses de acompanhamento completo</p>
-                
+                <p className="text-background/70 mb-6">Transforme conhecimento em renda em 7 dias</p>
+
                 <div className="mb-8">
-                  <span className="text-background/50 text-lg line-through">De R$ 15.000</span>
-                  <div className="font-serif text-5xl md:text-6xl font-bold text-primary mt-2">
-                    R$ 9.997
+                  <div className="font-serif text-3xl md:text-4xl font-bold text-primary mt-0">
+                    Entre na Lista de Espera
                   </div>
-                  <span className="text-background/70 text-sm">ou 12x de R$ 997</span>
+                  <span className="text-background/70 text-sm">
+                    Seja avisada quando as vagas forem abertas
+                  </span>
                 </div>
 
                 <Button
@@ -321,15 +324,11 @@ export default function MentoriaPage() {
                   size="lg"
                   className="bg-primary hover:bg-rose-dark text-primary-foreground rounded-full px-10 py-6 text-lg font-semibold w-full sm:w-auto"
                 >
-                  <Link href="https://wa.me/5511999999999?text=Olá! Quero me candidatar à Mentoria VIP.">
-                    Aplicar para Mentoria
+                  <Link href="https://chat.whatsapp.com/GzuqN2OyZZ33lE8ToiLGfy?s=cl&p=i&mlu=0&ilr=2">
+                    Quero Criar Meu Curso
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Link>
                 </Button>
-
-                <p className="text-background/50 text-sm mt-6">
-                  * Processo seletivo. Vagas limitadas a 10 mentoradas por turma.
-                </p>
               </div>
             </div>
           </motion.div>
