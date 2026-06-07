@@ -51,62 +51,85 @@ export default function MentoriaPage() {
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-accent/10 rounded-full blur-3xl" />
 
         <div className="container mx-auto px-4 relative z-10">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-center max-w-4xl mx-auto"
-          >
-            {/* VIP Badge */}
-            <motion.div
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ delay: 0.3, type: "spring" }}
-              className="inline-flex items-center gap-2 bg-accent/20 border border-accent/30 rounded-full px-5 py-2 mb-8"
-            >
-              <Crown className="w-5 h-5 text-accent" />
-              <span className="text-accent font-semibold">Lash Online</span>
-              <Diamond className="w-4 h-4 text-accent" />
-            </motion.div>
+          <div className="container mx-auto px-4 relative z-10">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
 
-            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-background mb-6 leading-tight">
-              Crie seu primeiro{" "}
-              <span className="text-primary">curso online</span>{" "}
-              em apenas 7 dias
-            </h1>
-
-            <p className="text-background/80 text-lg md:text-xl max-w-2xl mx-auto mb-10">
-              Transforme o que você já sabe em uma nova fonte de renda. Mesmo que você não tenha muitos seguidores, não tenha equipe, nunca tenha criado um curso antes e grave apenas com o celular.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                asChild
-                size="lg"
-                className="bg-primary hover:bg-rose-dark text-primary-foreground rounded-full px-10 py-6 text-lg font-semibold shadow-2xl"
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="text-center lg:text-left"
               >
-                <Link href="https://chat.whatsapp.com/GzuqN2OyZZ33lE8ToiLGfy?s=cl&p=i&mlu=0&ilr=2">
-                  Quero Criar Meu Curso
-                  <ArrowRight className="w-5 h-5 ml-2" />
-                </Link>
-              </Button>
-            </div>
+                {/* VIP Badge */}
+                <motion.div
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}
+                  transition={{ delay: 0.3, type: "spring" }}
+                  className="inline-flex items-center gap-2 bg-accent/20 border border-accent/30 rounded-full px-5 py-2 mb-8"
+                >
+                  <Crown className="w-5 h-5 text-accent" />
+                  <span className="text-accent font-semibold">Lash Online</span>
+                  <Diamond className="w-4 h-4 text-accent" />
+                </motion.div>
 
-            {/* Trust */}
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-10 text-background/60">
-              <div className="flex items-center gap-2">
-                <Clock className="w-5 h-5 text-primary" />
-                <span className="text-sm">Aprenda em apenas 7 dias</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Star className="w-5 h-5 fill-accent text-accent" />
-                <span className="text-sm">5.0 de avaliação</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Target className="w-5 h-5 text-primary" />
-                <span className="text-sm">Sem experiência anterior necessária</span>
-              </div>
+                <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-background mb-6 leading-tight">
+                  Crie seu primeiro{" "}
+                  <span className="text-primary">curso online</span>{" "}
+                  em apenas 7 dias
+                </h1>
+
+                <p className="text-background/80 text-lg md:text-xl max-w-2xl mx-auto lg:mx-0 mb-10">
+                  Transforme o que você já sabe em uma nova fonte de renda. Mesmo que você
+                  não tenha muitos seguidores, não tenha equipe, nunca tenha criado um
+                  curso antes e grave apenas com o celular.
+                </p>
+
+                <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                  <Button
+                    asChild
+                    size="lg"
+                    className="bg-primary hover:bg-rose-dark text-primary-foreground rounded-full px-10 py-6 text-lg font-semibold shadow-2xl"
+                  >
+                    <Link href="https://chat.whatsapp.com/GzuqN2OyZZ33lE8ToiLGfy?s=cl&p=i&mlu=0&ilr=2">
+                      Quero Criar Meu Curso
+                      <ArrowRight className="w-5 h-5 ml-2" />
+                    </Link>
+                  </Button>
+                </div>
+
+                {/* Trust */}
+                <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6 mt-10 text-background/60">
+                  <div className="flex items-center gap-2">
+                    <Clock className="w-5 h-5 text-primary" />
+                    <span className="text-sm">Aprenda em apenas 7 dias</span>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <Star className="w-5 h-5 fill-accent text-accent" />
+                    <span className="text-sm">5.0 de avaliação</span>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <Target className="w-5 h-5 text-primary" />
+                    <span className="text-sm">Sem experiência anterior necessária</span>
+                  </div>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, x: 30 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.2 }}
+                className="flex justify-center"
+              >
+                <img
+                  src="/images/course-lashonline.jpeg"
+                  alt="Lash Online"
+                  className="w-full max-w-md h-150  lg:max-w-lg rounded-3xl shadow-2xl border border-white/10 object-cover"
+                />
+              </motion.div>
+
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
 
@@ -206,45 +229,6 @@ export default function MentoriaPage() {
                 </span>
                 <h3 className="font-serif text-xl font-bold text-foreground mb-2">{item.title}</h3>
                 <p className="text-muted-foreground text-sm">{item.desc}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Results */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Resultados dos{" "}
-              <span className="text-primary">alunos</span>
-            </h2>
-          </motion.div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-            {results.map((result, index) => (
-              <motion.div
-                key={result.name}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl p-6 text-center border border-primary/20"
-              >
-                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-primary/20 flex items-center justify-center">
-                  <span className="font-serif text-2xl font-bold text-primary">
-                    {result.name.charAt(0)}
-                  </span>
-                </div>
-                <p className="font-semibold text-foreground mb-1">{result.name}</p>
-                <p className="text-primary font-bold mb-1">{result.result}</p>
-                <p className="text-xs text-muted-foreground">{result.time}</p>
               </motion.div>
             ))}
           </div>
