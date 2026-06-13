@@ -89,7 +89,7 @@ export default function MentoriaPage() {
                     size="lg"
                     className="bg-primary hover:bg-rose-dark text-primary-foreground rounded-full px-10 py-6 text-lg font-semibold shadow-2xl"
                   >
-                    <Link href="https://chat.whatsapp.com/GzuqN2OyZZ33lE8ToiLGfy?s=cl&p=i&mlu=0&ilr=2">
+                    <Link href="https://pay.kiwify.com.br/nyvcBvp">
                       Quero Criar Meu Curso
                       <ArrowRight className="w-5 h-5 ml-2" />
                     </Link>
@@ -295,11 +295,14 @@ export default function MentoriaPage() {
                 <p className="text-background/70 mb-6">Transforme conhecimento em renda em 7 dias</p>
 
                 <div className="mb-8">
-                  <div className="font-serif text-3xl md:text-4xl font-bold text-primary mt-0">
-                    Entre na Lista de Espera
+                  <div className="text-background/50 text-lg line-through mb-1">
+                    De R$97,00
+                  </div>
+                  <div className="font-serif text-4xl md:text-5xl font-bold text-primary mb-2">
+                    Por apenas R$67,00
                   </div>
                   <span className="text-background/70 text-sm">
-                    Seja avisada quando as vagas forem abertas
+                    Promoção por tempo limitado! Garanta seu acesso agora.
                   </span>
                 </div>
 
@@ -308,8 +311,8 @@ export default function MentoriaPage() {
                   size="lg"
                   className="bg-primary hover:bg-rose-dark text-primary-foreground rounded-full px-10 py-6 text-lg font-semibold w-full sm:w-auto"
                 >
-                  <Link href="https://chat.whatsapp.com/GzuqN2OyZZ33lE8ToiLGfy?s=cl&p=i&mlu=0&ilr=2">
-                    Quero Criar Meu Curso
+                  <Link href="https://pay.kiwify.com.br/nyvcBvp">
+                    Quero Garantir Minha Vaga
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Link>
                 </Button>
