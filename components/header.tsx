@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/cursos", label: "Cursos" },
-  { href: "/lashonline", label: "Lash Online" },
+  { href: "/lashonlinepromo", label: "Lash Online" },
 ]
 
 export function Header() {

@@ -298,7 +298,7 @@ export default function MentoriaPage() {
                     De R$127,00
                   </div>
                   <div className="font-serif text-4xl md:text-5xl font-bold text-primary mb-2">
-                    Por apenas R$67,00
+                    Por apenas R$97,00
                   </div>
                   <span className="text-background/70 text-sm">
                     Promoção por tempo limitado! Garanta seu acesso agora.
@@ -310,7 +310,7 @@ export default function MentoriaPage() {
                   size="lg"
                   className="bg-primary hover:bg-rose-dark text-primary-foreground rounded-full px-10 py-6 text-lg font-semibold w-full sm:w-auto"
                 >
-                  <Link href="https://pay.kiwify.com.br/nyvcBvp">
+                  <Link href="https://pay.kiwify.com.br/sRQMoRH">
                     Quero Garantir Minha Vaga
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Link>
